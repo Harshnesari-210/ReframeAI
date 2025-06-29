@@ -31,11 +31,10 @@ Raw user prompts are often vague or poorly structured. Even great language model
 ## 🚀 Features
 
 - 🔁 Auto-enhance user prompts with zero-shot or contextual reframing
-- 🧠 Uses LangChain + OpenAI to generate structured prompts
+- 🧠 Uses Ttrained ML model (T5 tokenizer) and  Gemini API to generate structured prompts
 - 🗨️ Displays both original & reframed prompt + final AI response
-- 🔐 Optional role-based auth (Admin/Regular)
 - 🖼️ Clean UI (React + TailwindCSS)
-- 🔌 Easily pluggable backend API with modular routes
+- 👩‍🏫 Prompt history and profile managesment pages
 
 ---
 
@@ -84,12 +83,20 @@ cd ReframeAI
 # Backend setup
 cd backend
 npm install
-npm start
+npm dev
 
 # Frontend setup (in new terminal)
 cd ../frontend
 npm install
-npm run dev
+npm run start
+
+#ML model+ Gemini API
+cd ../backend
+python run_servers.py
 
 # Note: Create .env file in backend for OpenAI key, Mongo URI, JWT_SECRET
 
+```
+---
+## 📄 License
+This project is licensed under the MIT License.
