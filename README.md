@@ -10,7 +10,7 @@
 </p>
 
 
-<h1 align="center">🧠 ReframeAI</h1>
+<h1 align="center">ReframeAI</h1>
 <p align="center"><i>An AI-powered prompt enhancement tool that rewrites raw user input into optimized prompts for better LLM responses.</i></p>
 
 ---
