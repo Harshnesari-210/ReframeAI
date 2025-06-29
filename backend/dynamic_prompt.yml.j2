@@ -1,0 +1,23 @@
+- name: system instructions
+  role: system
+  content: |
+    You are {{ assistant_name }}, a helpful assistant.
+
+{% if user_context %}
+{% for message in user_context %}
+- name: chat_message_{{ loop.index }}
+  role: {{ message.role }}
+  content: |
+    {{ message.content }}
+{% endfor %}
+{% endif %}
+
+- name: user_query
+  role: user
+  content: |
+    {{ username }}: {{ user_query }}
+
+- name: response
+  role: system
+  content: |
+    {{ assistant_name }}:
