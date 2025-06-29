@@ -1,12 +1,14 @@
+
 <p align="center">
-  
-  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-026e00?style=for-the-badge&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/Frontend-React.js%20%7C%20TailwindCSS-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/LLM-%20%7C%20Ogemini-5e60ce?style=for-the-badge&logo=gemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-026e00?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Database-MongoDB-4DB33D?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/LLM-Gemini-blueviolet?style=for-the-badge&logo=google&logoColor=white" />
   <img src="https://img.shields.io/badge/Event-KLE%20Mini%20Project-6f42c1?style=for-the-badge&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/Status-Completed-28a745?style=for-the-badge&logo=checkmarx&logoColor=white" />
-  <img src="https://img.shields.io/github/license/Harshnesari-210/ReframeAI?style=for-the-badge&color=grey&logo=opensourceinitiative&logoColor=white" />
+  <img src="https://img.shields.io/github/license/Harshnesari-210/ReframeAI?style=for-the-badge&color=grey&logo=book-open&logoColor=white" />
 </p>
+
 
 <h1 align="center">🧠 ReframeAI</h1>
 <p align="center"><i>An AI-powered prompt enhancement tool that rewrites raw user input into optimized prompts for better LLM responses.</i></p>
